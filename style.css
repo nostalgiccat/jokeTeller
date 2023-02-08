@@ -11,12 +11,12 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;    /*Top to Bottom */
   justify-content: center;   /* Vertical */
-  align-items: center;    /* Horizontal */
+  align-items:center;    /* Horizontal */
   background: url('./robot.gif');
   background-size: contain; 
   background-position: left center;
@@ -33,7 +33,7 @@ button {
   color: white; 
   background: #ff3482;
   border: none; 
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2)
 }
 
